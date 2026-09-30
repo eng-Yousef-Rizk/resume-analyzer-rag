@@ -1,0 +1,17 @@
+resume-analyzer/
+├── kb/
+│   ├── job_backend_dev.txt
+│   ├── job_data_analyst.txt
+│   ├── job_frontend_dev.txt
+│   ├── resume_guideline.txt
+│   └── career_roadmap_ai_engineer.txt
+├── ingestion/
+│   ├── __init__.py         
+│   └── chunker.py         # chunk_document()  # load_documents()
+├── embeddings/            # stage 2 — empty for now
+├── retrieval/             # stage 3-4 — empty for now
+├── agents/                # stage 5 — empty for now
+├── app/
+│   ├── main.py            # FastAPI entrypoint — already exists from your other work
+│   └── db.py              # SQLite setup — already exists
+└── requirements.txt

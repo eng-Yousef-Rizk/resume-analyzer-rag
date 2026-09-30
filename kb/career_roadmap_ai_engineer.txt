@@ -1,0 +1,79 @@
+Career Roadmap: Junior AI / GenAI Engineer
+
+Overview:
+This roadmap outlines the skills and milestones typically expected of someone moving from
+a Computer Science background into a junior AI Engineer or GenAI/Applied AI Engineer role.
+It is organized into phases; phases can overlap, and the timeline varies based on prior
+programming experience.
+
+Phase 1: Programming and CS Fundamentals (Foundation)
+- Strong proficiency in Python: data structures, OOP, virtual environments, packaging.
+- Understanding of algorithms and complexity (Big-O) sufficient for technical interviews.
+- Version control with Git and collaborative workflows (branches, pull requests, code review).
+- Basic Linux command line usage and shell scripting.
+- Understanding of REST API design and how to build one using a framework like FastAPI or Flask.
+- Comfortable working with relational databases (SQL) and at least one NoSQL store.
+
+Phase 2: Machine Learning Fundamentals
+- Core ML concepts: supervised vs unsupervised learning, overfitting/underfitting,
+  train/validation/test splits, evaluation metrics (accuracy, precision, recall, F1, RMSE).
+- Practical experience with scikit-learn: regression, classification, clustering.
+- Data manipulation with pandas and numpy; data visualization with matplotlib/seaborn.
+- Basic understanding of neural networks: perceptrons, activation functions, backpropagation,
+  gradient descent.
+- Familiarity with at least one deep learning framework (PyTorch is currently the most
+  in-demand for research and production GenAI roles; TensorFlow/Keras is also acceptable).
+
+Phase 3: NLP and Transformer Fundamentals
+- Understanding of tokenization, embeddings, and the attention mechanism at a conceptual level.
+- Familiarity with the Hugging Face ecosystem: transformers, datasets, tokenizers libraries.
+- Understanding the difference between encoder-only (BERT-style), decoder-only (GPT-style),
+  and encoder-decoder (T5-style) architectures and when each is used.
+- Hands-on experience fine-tuning a small pretrained model on a custom dataset (text
+  classification or sentiment analysis is a good starting project).
+- Understanding of embedding models and vector similarity (cosine similarity, dot product).
+
+Phase 4: Applied GenAI Engineering (this is where most junior GenAI roles focus)
+- Prompt engineering: zero-shot, few-shot, chain-of-thought prompting, and structured
+  output generation (JSON mode / function calling).
+- Retrieval-Augmented Generation (RAG): document chunking strategies, embedding models,
+  vector databases (FAISS, Chroma, Pinecone, Qdrant), retrieval and re-ranking.
+- Working with LLM provider APIs (OpenAI, Anthropic, Hugging Face Inference API,
+  or open-weight models served locally via Ollama).
+- Building small end-to-end AI-powered applications: a chatbot, a document Q&A system,
+  or a resume/job-matching tool are all strong portfolio projects.
+- Understanding of agentic patterns: tool use / function calling, basic multi-step agents,
+  and when a simple pipeline is preferable to a full agent.
+- Basic evaluation of LLM outputs: relevance, faithfulness/groundedness (especially for RAG),
+  and simple automated or human evaluation loops.
+
+Phase 5: Production and MLOps Awareness (differentiator for junior candidates)
+- Containerizing applications with Docker.
+- Basic CI/CD understanding (GitHub Actions) for automated testing and deployment.
+- Awareness of cost and latency trade-offs when choosing models and architectures
+  (e.g., smaller/cheaper model + good retrieval vs. larger model + naive prompting).
+- Logging and monitoring basics for AI applications (tracking token usage, latency, and
+  failure/fallback cases).
+- Basic security awareness for LLM applications: prompt injection risks, not exposing
+  API keys client-side, and validating/sanitizing user input.
+
+Portfolio Recommendations:
+A strong junior AI engineer portfolio typically includes:
+1. At least one classic ML project showing understanding of the fundamentals
+   (e.g., a classification or regression project with proper evaluation).
+2. At least one RAG or LLM-powered application built end-to-end (backend + simple frontend),
+   demonstrating chunking, embeddings, retrieval, and generation working together.
+3. A clean GitHub profile: well-documented READMEs, meaningful commit history, and
+   at least one project with basic tests.
+4. Optional but valuable: a technical blog post or write-up explaining a design decision
+   (e.g., "why I chose this chunking strategy" or "comparing two embedding models for my
+   use case") — this signals genuine understanding rather than tutorial-following.
+
+Interview Preparation Focus Areas:
+- Data structures and algorithms (standard CS fundamentals, moderate depth expected).
+- Python coding questions, often including a small practical task (e.g., parse this data,
+  build a small function using an API).
+- System design at a junior level: "how would you design a simple RAG system" or
+  "how would you structure a resume-matching pipeline" are common and directly relevant.
+- Behavioral questions about a project you built: be ready to explain trade-offs, what
+  you would do differently, and how you debugged a hard issue.

@@ -1,0 +1,84 @@
+Resume Writing Guidelines: Best Practices for Tech Roles
+
+1. Structure and Length
+A resume for a technical role (developer, analyst, engineer) should typically be one page
+for candidates with fewer than 7 years of experience, and no more than two pages otherwise.
+Recruiters spend an average of 6-8 seconds on a first pass, so the most important information
+must be visible immediately without scrolling.
+
+Recommended section order:
+1. Contact Information (name, phone, email, LinkedIn, GitHub/portfolio link)
+2. Professional Summary (2-3 sentences, optional but recommended for career changers)
+3. Technical Skills (grouped by category: Languages, Frameworks, Tools, Databases)
+4. Work Experience (reverse chronological order)
+5. Projects (especially important for students and junior candidates)
+6. Education
+7. Certifications (if relevant)
+
+2. Writing Effective Bullet Points
+Each bullet point under work experience or projects should follow the STAR-lite pattern:
+Action Verb + What You Did + Measurable Result (if possible).
+
+Weak example: "Responsible for backend development of the application."
+Strong example: "Redesigned the backend API architecture, reducing average response time
+by 40% and cutting server costs by 25%."
+
+Avoid starting bullets with "Responsible for," "Worked on," or "Helped with." Use strong
+action verbs instead: Built, Designed, Implemented, Optimized, Automated, Led, Reduced,
+Increased, Migrated, Deployed, Architected.
+
+Quantify impact wherever possible: percentages, time saved, number of users, revenue impact,
+performance improvements. If exact numbers are unavailable, use reasonable estimates
+("processed roughly 10,000 records daily") rather than vague claims.
+
+3. Technical Skills Section
+List skills by category rather than as one long unordered list:
+- Languages: Python, JavaScript, Java, SQL
+- Frameworks/Libraries: FastAPI, React, Django, pandas
+- Tools & Platforms: Docker, Git, AWS, Linux
+- Databases: PostgreSQL, MongoDB, Redis
+
+Only list skills you can confidently discuss in an interview. Do not pad the list with
+technologies you have only briefly encountered in a tutorial.
+
+4. Tailoring to the Job Description
+Every resume submission should be tailored to the specific job posting. Identify the top
+5-8 keywords and required skills from the job description and ensure they appear naturally
+in your resume, especially if the company uses an Applicant Tracking System (ATS) to filter
+candidates before a human reviewer sees the resume.
+
+Common ATS pitfalls to avoid:
+- Using tables, text boxes, or images to display key information (many ATS parsers fail to
+  read these).
+- Using unusual fonts or heavy graphical templates.
+- Saving the file in a non-standard format; PDF or DOCX are generally safest.
+- Missing standard section headers (use "Experience," "Education," "Skills," not creative
+  alternatives like "My Journey").
+
+5. Common Resume Mistakes
+- Including an objective statement that talks about what you want rather than what you offer.
+- Listing responsibilities instead of achievements.
+- Inconsistent formatting (mixed date formats, inconsistent bullet styles, uneven spacing).
+- Spelling and grammar errors, especially in technical terms and company names.
+- Including irrelevant personal information (age, marital status, photo) unless standard
+  practice in the target country/industry.
+- Overly long project descriptions that read like a technical README instead of a resume bullet.
+
+6. Projects Section for Students and Junior Candidates
+When professional experience is limited, the Projects section becomes the most important
+part of the resume. For each project, include:
+- Project name and a one-line description of what it does and who it's for.
+- The tech stack used (be specific: "FastAPI, SQLite, vanilla JavaScript" rather than
+  just "web development").
+- 2-3 bullet points describing what you built, key technical decisions, and any measurable
+  outcome (performance, scale, or a specific hard problem you solved).
+- A link to the GitHub repository and, if available, a live demo.
+
+7. Formatting Consistency Checklist
+- Consistent date format throughout (e.g., "Jan 2024 - Present").
+- Consistent verb tense: past tense for completed roles/projects, present tense only for
+  current ongoing work.
+- Consistent bullet point punctuation (either all end with periods or none do).
+- Font size between 10-12pt for body text, 14-16pt for section headers.
+- Margins between 0.5 and 1 inch on all sides.
+- No more than two font families in the entire document.

@@ -1,0 +1,47 @@
+Job Title: Frontend Developer (Mid-Level)
+
+Company: PixelWorks Studio
+Location: Alexandria, Egypt (Remote-friendly)
+Employment Type: Full-time
+
+About the Role:
+PixelWorks Studio builds consumer-facing web products used by thousands of daily users.
+We're looking for a Frontend Developer who cares deeply about performance, accessibility,
+and clean UI implementation to join our product engineering team.
+
+Responsibilities:
+- Build responsive, accessible web interfaces using React (or Vue) and TypeScript.
+- Translate Figma designs into pixel-accurate, reusable UI components.
+- Optimize application performance (lazy loading, code splitting, bundle size reduction).
+- Write unit and component tests using Jest and React Testing Library.
+- Collaborate with backend engineers to integrate REST or GraphQL APIs.
+- Maintain and extend a shared component library / design system.
+- Ensure cross-browser compatibility and responsive behavior across devices.
+- Participate in design reviews and provide technical feedback on UX proposals.
+- Monitor and improve Core Web Vitals and overall page load performance.
+
+Required Qualifications:
+- Bachelor's degree in Computer Science or a related field (or equivalent practical experience).
+- 2-4 years of professional frontend development experience.
+- Strong proficiency in JavaScript (ES6+) and TypeScript.
+- Deep experience with a modern framework: React, Vue, or Angular.
+- Solid understanding of HTML5, CSS3, Flexbox, and Grid layout.
+- Experience with state management (Redux, Zustand, Pinia, or Context API).
+- Familiarity with build tools (Vite, Webpack) and package managers (npm/yarn/pnpm).
+- Understanding of web accessibility standards (WCAG) and semantic HTML.
+
+Nice to Have:
+- Experience with server-side rendering frameworks (Next.js, Nuxt).
+- Familiarity with design tools (Figma) and design-to-code workflows.
+- Knowledge of CSS-in-JS or utility-first CSS (Tailwind CSS).
+- Experience with end-to-end testing (Playwright, Cypress).
+- Basic understanding of CI/CD for frontend deployments (Vercel, Netlify).
+
+Soft Skills:
+- Strong eye for visual detail and UX consistency.
+- Comfortable giving and receiving constructive design/code feedback.
+- Good communication skills when collaborating with designers and backend engineers.
+- Ability to work independently and manage time across multiple small tasks.
+
+Salary Range: Competitive, based on experience.
+Benefits: Remote flexibility, health insurance, equipment allowance, annual team retreat.

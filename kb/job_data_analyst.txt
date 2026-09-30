@@ -1,0 +1,48 @@
+Job Title: Data Analyst (Junior to Mid-Level)
+
+Company: Delta Insights
+Location: Giza, Egypt (On-site, 3 days/week hybrid option)
+Employment Type: Full-time
+
+About the Role:
+Delta Insights is hiring a Data Analyst to turn raw business data into actionable insights.
+You will work with sales, marketing, and operations teams to build dashboards, run analyses,
+and support data-driven decision-making across the company.
+
+Responsibilities:
+- Collect, clean, and validate data from multiple sources (databases, spreadsheets, APIs).
+- Write SQL queries to extract and aggregate data from relational databases.
+- Build interactive dashboards and reports using Power BI or Tableau.
+- Perform exploratory data analysis (EDA) using Python (pandas, numpy) or R.
+- Present findings to stakeholders in clear, non-technical language.
+- Identify trends, anomalies, and opportunities for process improvement.
+- Maintain data documentation and ensure data quality standards.
+- Collaborate with the data engineering team on ETL pipeline requirements.
+- Support A/B testing and basic statistical analysis for marketing campaigns.
+
+Required Qualifications:
+- Bachelor's degree in Statistics, Computer Science, Economics, Business, or related field.
+- 0-2 years of experience in a data analysis or business intelligence role.
+- Strong SQL skills (joins, aggregations, window functions, subqueries).
+- Proficiency in Excel (pivot tables, VLOOKUP/XLOOKUP, formulas).
+- Working knowledge of Python or R for data manipulation and basic analysis.
+- Experience with at least one BI/visualization tool (Power BI, Tableau, Looker, or
+  Google Data Studio).
+- Understanding of basic statistics (mean, median, standard deviation, correlation,
+  hypothesis testing).
+
+Nice to Have:
+- Experience with cloud data warehouses (BigQuery, Snowflake, Redshift).
+- Familiarity with version control (Git) for analytics code.
+- Exposure to machine learning concepts (regression, classification) is a plus but not required.
+- Knowledge of dbt or other data transformation tools.
+- Experience with survey design or A/B testing frameworks.
+
+Soft Skills:
+- Strong attention to detail and data accuracy.
+- Ability to translate business questions into analytical tasks.
+- Clear written and verbal communication for presenting insights to non-technical audiences.
+- Curiosity and a habit of questioning data before trusting it.
+
+Salary Range: Competitive, based on experience.
+Benefits: Health insurance, learning stipend, flexible hours, hybrid work option.

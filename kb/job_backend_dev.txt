@@ -1,0 +1,49 @@
+Job Title: Backend Developer (Mid-Level)
+
+Company: NileTech Solutions
+Location: Cairo, Egypt (Hybrid)
+Employment Type: Full-time
+
+About the Role:
+We are looking for a Backend Developer to design, build, and maintain the server-side logic
+that powers our web and mobile products. You will work closely with frontend engineers,
+DevOps, and product managers to ship reliable, scalable services.
+
+Responsibilities:
+- Design and implement RESTful APIs using Python (FastAPI or Django) or Node.js (Express/NestJS).
+- Write clean, maintainable, and well-tested code following SOLID principles.
+- Design relational database schemas (PostgreSQL or MySQL) and optimize queries.
+- Implement authentication and authorization (JWT, OAuth2).
+- Integrate third-party APIs and payment gateways.
+- Write unit and integration tests; maintain CI/CD pipelines (GitHub Actions, GitLab CI).
+- Monitor application performance and troubleshoot production issues.
+- Participate in code reviews and mentor junior developers.
+- Collaborate with DevOps to containerize services using Docker and deploy on Kubernetes or
+  cloud platforms such as AWS, Azure, or GCP.
+
+Required Qualifications:
+- Bachelor's degree in Computer Science, Software Engineering, or a related field.
+- 2-4 years of professional experience building backend services.
+- Strong proficiency in at least one backend language: Python, Java, Node.js, or Go.
+- Solid understanding of relational databases (SQL) and at least one NoSQL database
+  (MongoDB, Redis).
+- Experience with version control (Git) and collaborative workflows (pull requests, branching).
+- Familiarity with API design principles (REST, and ideally GraphQL).
+- Understanding of caching strategies, message queues (RabbitMQ, Kafka), and asynchronous
+  processing.
+- Basic knowledge of Linux server administration.
+
+Nice to Have:
+- Experience with microservices architecture.
+- Exposure to Infrastructure as Code (Terraform, Ansible).
+- Knowledge of system design and scalability patterns (load balancing, sharding, caching layers).
+- Experience writing technical documentation (OpenAPI/Swagger).
+- Contributions to open-source projects.
+
+Soft Skills:
+- Strong problem-solving and debugging skills.
+- Ability to communicate technical trade-offs clearly to non-technical stakeholders.
+- Comfortable working in an agile environment with sprint planning and stand-ups.
+
+Salary Range: Competitive, based on experience.
+Benefits: Health insurance, remote work flexibility, annual training budget, performance bonus.

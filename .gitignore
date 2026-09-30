@@ -1,0 +1,32 @@
+# Virtual environments
+venv/
+.venv/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Local database
+*.db
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# Generated / local data
+kb_chunks.json

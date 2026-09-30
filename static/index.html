@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>AI Resume Analyzer</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7fb;
+            color: #1f2937;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .header h1 {
+            margin-bottom: 10px;
+            color: #111827;
+            font-size: 36px;
+        }
+
+        .header p {
+            color: #6b7280;
+            font-size: 16px;
+        }
+
+        /* Input Card */
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            margin-bottom: 25px;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 20px;
+            color: #111827;
+        }
+
+        .card p {
+            color: #6b7280;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 280px;
+            resize: vertical;
+            padding: 15px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 15px;
+            line-height: 1.6;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        textarea:focus {
+            border-color: #2563eb;
+        }
+
+        .analyze-btn {
+            width: 100%;
+            margin-top: 15px;
+            padding: 13px 20px;
+            border: none;
+            border-radius: 8px;
+            background: #2563eb;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .analyze-btn:hover {
+            background: #1d4ed8;
+        }
+
+        .analyze-btn:disabled {
+            background: #93c5fd;
+            cursor: not-allowed;
+        }
+
+        /* Loading */
+        #loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: #6b7280;
+        }
+
+        /* Error */
+        #error {
+            display: none;
+            background: #fee2e2;
+            color: #991b1b;
+            border: 1px solid #fecaca;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        /* Results */
+        #result {
+            display: none;
+        }
+
+        .result-title {
+            margin-bottom: 20px;
+        }
+
+        .result-title h2 {
+            margin-bottom: 5px;
+        }
+
+        .result-title p {
+            color: #6b7280;
+            margin-top: 0;
+        }
+
+        /* Score */
+        .score-card {
+            text-align: center;
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .score {
+            font-size: 56px;
+            font-weight: bold;
+            color: #2563eb;
+        }
+
+        .score-label {
+            color: #6b7280;
+            font-size: 15px;
+        }
+
+        /* Result sections */
+        .result-section {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .result-section h3 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #111827;
+        }
+
+        .result-section ul {
+            margin: 0;
+            padding-left: 22px;
+        }
+
+        .result-section li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        .strengths {
+            border-left: 5px solid #22c55e;
+        }
+
+        .weaknesses {
+            border-left: 5px solid #ef4444;
+        }
+
+        .suggestions {
+            border-left: 5px solid #f59e0b;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container {
+                margin: 25px auto;
+            }
+
+            .header h1 {
+                font-size: 28px;
+            }
+
+            .card,
+            .result-section {
+                padding: 20px;
+            }
+
+            .score {
+                font-size: 48px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header">
+            <h1>AI Resume Analyzer</h1>
+            <p>
+                Analyze your resume using AI-powered recommendations
+                and hiring best practices.
+            </p>
+        </header>
+
+        <!-- Resume Input -->
+        <div class="card">
+            <h2>Analyze Your Resume</h2>
+
+            <p>
+                Paste your resume text below. The AI will analyze it against
+                relevant hiring criteria and provide personalized feedback.
+            </p>
+
+            <textarea
+                id="resumeText"
+                placeholder="Paste your resume text here..."
+            ></textarea>
+
+            <button id="analyzeBtn" class="analyze-btn">
+                Analyze Resume
+            </button>
+        </div>
+
+        <!-- Loading -->
+        <div id="loading">
+            <p>Analyzing your resume... Please wait.</p>
+        </div>
+
+        <!-- Error -->
+        <div id="error"></div>
+
+        <!-- Results -->
+        <div id="result">
+
+            <div class="result-title">
+                <h2>Resume Analysis</h2>
+                <p>Here is the AI-generated analysis of your resume.</p>
+            </div>
+
+            <!-- Overall Score -->
+            <div class="score-card">
+                <div class="score" id="overallScore">-</div>
+                <div class="score-label">Overall Resume Score / 10</div>
+            </div>
+
+            <!-- Strengths -->
+            <div class="result-section strengths">
+                <h3>✓ Strengths</h3>
+                <ul id="strengthsList"></ul>
+            </div>
+
+            <!-- Weaknesses -->
+            <div class="result-section weaknesses">
+                <h3>⚠ Weaknesses</h3>
+                <ul id="weaknessesList"></ul>
+            </div>
+
+            <!-- Suggestions -->
+            <div class="result-section suggestions">
+                <h3>💡 Suggestions</h3>
+                <ul id="suggestionsList"></ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+

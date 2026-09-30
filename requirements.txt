@@ -1,0 +1,27 @@
+# --- Core backend ---
+fastapi
+uvicorn[standard]
+python-multipart
+
+# --- Environment & config ---
+python-dotenv
+
+# --- Data ingestion (parsing resumes) ---
+pypdf
+python-docx
+
+# --- Chunking & text utils ---
+tiktoken
+
+# --- Embeddings (local, free, no API key needed) ---
+sentence-transformers
+
+# --- Vector Database ---
+chromadb
+
+# --- LLM calls (Hugging Face Inference API) ---
+huggingface_hub
+requests
+
+# --- (اختياري لاحقًا) Re-ranking ---
+# rank-bm25
